@@ -1,0 +1,48 @@
+.container-head
+{
+    width: 100%;
+    height:75px;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.container-head-logo, .container-head-logo-cetis
+{
+    width: 17%;
+    height: 70px;
+    margin: 0px 1%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    float: left;
+}
+.container-head-logo
+{
+    background-image: url(../images/logo-sep.png);
+}
+.container-head-logo-cetis
+{
+    background-image: url(../images/logo3A.png);
+}
+.container-head-title
+{
+    width: 60%;
+    height: 70px;
+    margin: 0px 1%;
+    display: flex;
+    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.93em;
+    font-weight: 400;
+    color: rgb(121, 121, 121);
+}
+@media (max-width: 900px) {
+    .container-head-title
+    {
+     font-size: 0.9em;
+     justify-content: left;
+    }
+  }
